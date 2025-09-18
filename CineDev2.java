@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class cineDev{ 
+public class CineDev2{ 
         
     public static void main(String args[]) {
      // Parte 1 - Matriz bidimensional.
