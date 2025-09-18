@@ -26,5 +26,25 @@ public class cineDev{
             }
           System.out.println(); 
         }
-    }
+   // parte 2 - Loop do menu.
+Scanner scanner = new Scanner(System.in);
+    
+        int opcao;
+          do{
+             System.out.println("\n === MENU PRINCIPAl === ");
+             System.out.println("1. Mapa de Assentos :");
+             System.out.println("2. Comprar Ingresso:  :");  
+             System.out.println("3. Cancelar Compra :");
+             System.out.println("4. Relatório de Ocupação : ");
+             System.out.println("5. Sair :");
+            System.out.println("Escolha uma opção :");
+       
+            
+            opcao = scanner.nextInt();
+           scanner.nextLine();
+
+    
+    
+}
+}
 }
