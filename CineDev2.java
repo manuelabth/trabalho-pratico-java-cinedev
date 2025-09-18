@@ -44,7 +44,33 @@ Scanner scanner = new Scanner(System.in);
            scanner.nextLine();
 
     
-    
-}
-}
+    // Opções do usuario.
+            switch ( opcao){ 
+                case 1:
+              exibirMapa( salaDeCinema);
+                    break;
+                case 2:
+                    comprarIngresso(salaDeCinema, Scanner);
+                      break;
+                case 3:
+                    cancelarCompra(salaDeCinema, Scanner);
+                      break;
+                case 4:
+                    exibirRelatorioOcupacao(salaDeCinema);
+                     break;  
+                case 5:
+                     System.out.println( "Saindo do sistema. Obrigado!");
+                      break;
+                default :
+            System.out.println( " Opção invàlida! Tente novamente");
+            }
+              
+           
+          
+         
+          }        while ( opcao != 5 );
+           scanner.close();
+
+
+    }
 }
