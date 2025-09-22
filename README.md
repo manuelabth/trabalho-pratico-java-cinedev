@@ -103,7 +103,7 @@ Percentual de ocupação.
 Exemplo de saída:
 
 
-=== RELATÓRIO DE OCUPAÇÃO ===
+ RELATÓRIO DE OCUPAÇÃO 
 Total de assentos: 200
 Assentos ocupados: 45
 Assentos livres: 155
@@ -120,3 +120,7 @@ Saindo do sistema. Obrigado!
   Sempre digite apenas números inteiros válidos.
  Acompanhe o mapa de assentos antes de comprar ou cancelar.
  O sistema pode ser usado quantas vezes for necessário — o menu sempre retorna até que o usuário escolha 5 (Sair).
+
+
+
+
